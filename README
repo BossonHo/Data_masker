@@ -1,0 +1,10 @@
+1.	在終端機中安裝
+pip install flask spacy
+pip install langdetect
+python -m spacy download en_core_web_sm
+python -m spacy download zh_core_web_lg
+2.	執行project資料夾中的app.py點開網址
+3.在表格中輸入範例: 
+中文範例:我的名字是王小明，我在華山文創園區工作。電話號碼是0912-345-678。
+My full name is John Smith, and I am the CEO of Apple Inc. My email is john.s@apple.com.
+4.	選擇模式，點選遮蔽，得到結果
